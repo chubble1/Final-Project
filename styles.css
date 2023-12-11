@@ -30,3 +30,7 @@ article.words {
 footer#page-footer {
     background: #B37348;
 }
+
+h2 {
+    font-family: 'Yantramanav', sans-serif;
+}
