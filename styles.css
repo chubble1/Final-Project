@@ -26,3 +26,7 @@ article.words {
     margin: auto;
     font-family: 'Sarabun', sans-serif;
 }
+
+footer#page-footer {
+    background: #B37348;
+}
