@@ -6,6 +6,10 @@
     height: 1px;
     overflow: hidden;
 }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
 @-ms-viewport{
     width: device-width;
@@ -34,8 +38,6 @@ article.words {
 
 footer#page-footer {
     background: #825E84;
-    margin: auto 0;
-    font-family: 'Sarabun', sans-serif;
     padding: 32px 0;
     margin-top: 64px;
     text-align: center;
@@ -83,7 +85,9 @@ header {
     padding: 0px 10px;
   }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+nav.site-menu {
+    margin: auto 0;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
   }
+
