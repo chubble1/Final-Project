@@ -34,7 +34,7 @@ article.words {
 
 footer#page-footer {
     background: #B37348;
-    margin: auto;
+    margin: auto 0;
     font-family: 'Sarabun', sans-serif;
 }
 
