@@ -15,6 +15,11 @@ body {
     background: #FFBD59;
 }
 
+h1#site-title {
+    font-size: 50px;
+    font-family: 'Sarabun', sans-serif;
+}
+
 h1#article-title {
     font-size: 40px;
     color:#52796f;
