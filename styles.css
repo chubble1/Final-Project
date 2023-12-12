@@ -85,10 +85,18 @@ nav.site-menu {
     padding: 10px;
 }
 
-  footer#page-footer {
+footer#page-footer {
     background: #825E84;
     padding: 32px 0;
     margin-top: 50px;
     text-align: center;
     font-family: 'Sarabun', sans-serif;
 }
+
+footer nav ul li a {
+    color: #ffffff;
+  }
+  
+footer nav ul li a:hover {
+    text-decoration: underline;
+  }
