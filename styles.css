@@ -36,13 +36,6 @@ article.words {
     font-family: 'Sarabun', sans-serif;
 }
 
-footer#page-footer {
-    background: #825E84;
-    padding: 32px 0;
-    margin-top: 64px;
-    text-align: center;
-}
-
 li {
     display: inline;
 }
@@ -89,5 +82,13 @@ nav.site-menu {
     margin: auto 0;
     font-family: 'Sarabun', sans-serif;
     text-align: center;
-  }
+    padding: 10px;
+}
 
+  footer#page-footer {
+    background: #825E84;
+    padding: 32px 0;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
