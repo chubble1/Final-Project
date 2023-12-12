@@ -34,6 +34,11 @@ article.words {
 
 footer#page-footer {
     background: #B37348;
+    margin: auto;
+}
+
+nav.site-menu {
+    display: inline;
 }
 
 h2 {
