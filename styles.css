@@ -35,9 +35,10 @@ article.words {
 footer#page-footer {
     background: #B37348;
     margin: auto;
+    font-family: 'Sarabun', sans-serif;
 }
 
-nav.site-menu {
+li {
     display: inline;
 }
 
