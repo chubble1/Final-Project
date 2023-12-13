@@ -36,13 +36,6 @@ h1#article-title {
     text-shadow: 2px 2px 0px #1B1B1E;
 }
 
-article.words {
-    width: 1100px;
-    margin: auto;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 20px;
-}
-
 h2 {
     font-family: 'Yantramanav', sans-serif;
     font-size: 35px;
@@ -85,6 +78,13 @@ header {
     padding: 0px 10px;
 }
 
+article.words {
+    width: 1100px;
+    margin: auto;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+}
+
 figure {
     margin: 20px;
     border: 8px solid black;
@@ -106,6 +106,15 @@ figure.main-image {
     max-width: 600px;
     height: auto;
     float: right;
+}
+
+figure.top-pic {
+    background: #84A98C;
+    border-color: #52796F;
+    color: black;
+    margin-bottom: 32px;
+    max-width: 1100px;
+    height: auto;
 }
 
 figure.section-image.odd {
