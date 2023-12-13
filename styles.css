@@ -91,15 +91,16 @@ figure {
   
 figure img {
     margin-bottom: 12px;
-    max-width: 900px;
+    max-width: 450px;
   }
 
 figure.main-image {
+    float: left;
     background: #84A98C;
     border-color: #B37348;
     color: black;
     margin-bottom: 32px;
-    max-width: 1000px;
+    max-width: 500px;
     height: auto;
   }
 
