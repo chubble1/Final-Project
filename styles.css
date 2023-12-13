@@ -74,13 +74,18 @@ header {
 }
 
 .main {
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 0px 10px;
 }
 
 article.words {
     width: 1100px;
     margin: auto;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+}
+
+p a {
     font-family: 'Sarabun', sans-serif;
     font-size: 20px;
 }
@@ -106,7 +111,6 @@ figure.main-image {
     max-width: 600px;
     height: auto;
     float: right;
-    margin-left: 0;
 }
 
 figure.top-pic {
@@ -116,6 +120,7 @@ figure.top-pic {
     margin-bottom: 32px;
     max-width: 1100px;
     height: auto;
+    margin-left: 0;
 }
 
 figure.section-image.odd {
