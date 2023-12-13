@@ -90,8 +90,6 @@ figure {
   }
   
 figure img {
-    max-width: 500px;
-    height: auto;
     margin-bottom: 12px;
   }
 
@@ -100,8 +98,8 @@ figure.main-image {
     border-color: #B37348;
     color: black;
     margin-bottom: 32px;
-    width: 1614px;
-    height: 1438px;
+    max-width: 1000px;
+    height: auto;
   }
 
 nav.site-menu {
