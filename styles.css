@@ -106,6 +106,7 @@ figure.main-image {
     max-width: 600px;
     height: auto;
     float: right;
+    margin-left: 0;
 }
 
 figure.top-pic {
