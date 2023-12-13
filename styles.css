@@ -103,7 +103,7 @@ figure.main-image {
     margin-bottom: 32px;
     max-width: 500px;
     height: auto;
-    float: left;
+    float: right;
 }
 
 nav.site-menu {
