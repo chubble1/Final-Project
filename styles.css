@@ -71,38 +71,38 @@ header {
     color: white;
     display: block;
     font-family: 'Sarabun', sans-serif;
-  }
+}
 
 .sidenav a:hover {
     color: #52796F;
-  }
+}
 
 .main {
     margin-left: 200px;
     padding: 0px 10px;
-  }
+}
 
 figure {
     margin: 0;
-    border: 10px solid black;
+    border: 8px solid black;
     padding: 8px;
     padding-bottom: 10px;
-  }
+}
   
 figure img {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     max-width: 450px;
-  }
+    float: left;
+}
 
 figure.main-image {
-    float: left;
     background: #84A98C;
     border-color: #B37348;
     color: black;
     margin-bottom: 32px;
     max-width: 500px;
     height: auto;
-  }
+}
 
 nav.site-menu {
     margin: auto 0;
@@ -137,6 +137,6 @@ footer nav ul li a:hover {
 
 li {
     display: inline;
-    padding: 30px;
+    padding: 20px;
 }
 
