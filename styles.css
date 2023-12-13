@@ -6,6 +6,7 @@
     height: 1px;
     overflow: hidden;
 }
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -21,8 +22,8 @@ body {
 
 h1#site-title {
     font-size: 60px;
-    font-family: 'Sarabun', sans-serif;
-    text-align: right;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
     color: white;
 }
 
