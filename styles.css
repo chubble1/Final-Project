@@ -20,9 +20,10 @@ body {
 }
 
 h1#site-title {
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Sarabun', sans-serif;
     margin: auto;
+    color: white;
 }
 
 h1#article-title {
@@ -43,7 +44,7 @@ h2 {
 
 header {
     background-image: url("https://i.pinimg.com/originals/9a/4e/e1/9a4ee13d4adce2a4c5cd746ff8993bbf.gif");
-    height: 80px;
+    height: 150px;
 }
 
 .sidenav {
