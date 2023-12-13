@@ -110,7 +110,7 @@ figure.main-image {
 
 figure.top-pic {
     background: #84A98C;
-    border-color: #52796F;
+    border-color: #B37348;
     color: black;
     margin-bottom: 32px;
     max-width: 1100px;
@@ -119,17 +119,17 @@ figure.top-pic {
 
 figure.section-image.odd {
     background: #84A98C;
-    border-color: #B37348;
+    border-color: #52796F;
     color: black;
     margin-bottom: 32px;
-    max-width: 700px;
+    max-width: 400px;
     height: auto;
     float: left;
 }
 
 figure.section-image.even {
     background: #84A98C;
-    border-color: #B37348;
+    border-color: #52796F;
     color: black;
     margin-bottom: 32px;
     max-width: 500px;
