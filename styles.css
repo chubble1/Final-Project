@@ -85,9 +85,8 @@ article.words {
     font-size: 20px;
 }
 
-p a {
-    font-family: 'Sarabun', sans-serif;
-    font-size: 20px;
+.skip2 {
+    color:#503952;
 }
 
 figure {
