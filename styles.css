@@ -82,6 +82,26 @@ header {
     padding: 0px 10px;
   }
 
+figure {
+    margin: 0;
+    border: 10px solid black;
+    padding: 8px;
+    padding-bottom: 10px;
+  }
+  
+figure img {
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+figure.main-image {
+    background: #84A98C;
+    border-color: #B37348;
+    color: black;
+    margin-bottom: 32px;
+  }
+
 nav.site-menu {
     margin: auto 0;
     font-family: 'Sarabun', sans-serif;
@@ -113,7 +133,7 @@ footer nav ul li a:hover {
     color: white;
 }
 
-  li {
+li {
     display: inline;
     padding: 30px;
 }
