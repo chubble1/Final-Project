@@ -24,7 +24,7 @@ h1#site-title {
     font-size: 60px;
     font-family: 'Yantramanav', sans-serif;
     color: white;
-    align-items: center;
+    text-align: center;
 }
 
 h1#article-title {
@@ -43,6 +43,7 @@ article.words {
 h2 {
     font-family: 'Yantramanav', sans-serif;
     font-size: 35px;
+    color: #1B1B1E;
 }
 
 header {
@@ -58,7 +59,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #825E84;
+    background-color: #1F0318;
     overflow-x: hidden;
     padding-top: 20px;
   }
