@@ -95,10 +95,30 @@ figure {
   
 figure img {
     margin-bottom: 10px;
-    max-width: 500px;
+    max-width: 100%;
 }
 
 figure.main-image {
+    background: #84A98C;
+    border-color: #B37348;
+    color: black;
+    margin-bottom: 32px;
+    max-width: 600px;
+    height: auto;
+    float: right;
+}
+
+figure.section-image.odd {
+    background: #84A98C;
+    border-color: #B37348;
+    color: black;
+    margin-bottom: 32px;
+    max-width: 700px;
+    height: auto;
+    float: left;
+}
+
+figure.section-image.even {
     background: #84A98C;
     border-color: #B37348;
     color: black;
