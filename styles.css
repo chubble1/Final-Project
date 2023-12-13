@@ -94,7 +94,7 @@ figure {
   
 figure img {
     margin-bottom: 10px;
-    max-width: auto;
+    max-width: 480px;
 }
 
 figure.main-image {
