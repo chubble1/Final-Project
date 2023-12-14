@@ -21,12 +21,12 @@ body {
 }
 
 h1#site-title {
-    font-size: 100px;
+    font-size: 125px;
     font-family: 'Yantramanav', sans-serif;
     color: white;
     text-align: center;
     margin-top: 20px;
-    text-shadow: 4px 4px 0px #1B1B1E;
+    text-shadow: 6px 6px 0px #1B1B1E;
 }
 
 h1#article-title {
@@ -50,7 +50,7 @@ header {
 
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 350px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -63,10 +63,14 @@ header {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     display: block;
     font-family: 'Sarabun', sans-serif;
+}
+
+.sidenav a:last-child {
+    font-size: 25px;
 }
 
 .sidenav a:hover {
@@ -85,6 +89,9 @@ article.words {
     font-size: 20px;
 }
 
+p a {
+    color:#503952;
+}
 .skip2 {
     color:#503952;
 }
