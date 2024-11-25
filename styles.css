@@ -49,23 +49,25 @@ header {
 }
 
 .sidenav {
-    height: 100%;
-    width: 350px;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #503952;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+  height: 100%; 
+  width: 350px;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #503952; 
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; 
+}
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 35px;
-    color: white;
-    display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
     font-family: 'Sarabun', sans-serif;
 }
 
@@ -74,12 +76,25 @@ header {
 }
 
 .sidenav a:hover {
-    color: #52796F;
+  color: #52796F;
 }
 
-.main {
-    margin-left: 100px;
-    padding: 0px 10px;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 article.words {
