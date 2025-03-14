@@ -13,13 +13,22 @@
         <header>
             <h1 id="site-title">Cheese Sandwich Alert</h1>
         </header>
-        <div class="sidenav">
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="home.html">Home</a>
             <a href="paperbag.html">Emergency Lunch</a>
             <a href="quesadilla.html">The Quesadilla</a>
             <a href="subtender.html">King Cheese</a>
             <a href="https://www.saveur.com/recipes/grilled-cheese-sandwich-recipes/">Saveur's Best Grilled Cheese Sandwiches from Around the World</a>
           </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+            <h2>Collapsed Sidebar</h2>
+            <p>Content...</p>
+          </div>
+
         <div class="main">
         <article class="words">
             <h1 id="article-title">Cheese Sandwiches and Me</h1>
